@@ -78,102 +78,115 @@ img {
 
 
 @media screen and (max-width: 420px){
+
   *{
     font-size: 30px;;
   }
-}
 
-/* titol e lezioni dove vuoi */
-@media screen and (max-width: 420px){
+  img {
+    height: 150px;
+  }
+
+  .container.grey{
+    background-color: white;
+  }
+
+
+  /* titol e lezioni dove vuoi */
 
   #lezioni .row img {
-    /* per centrare orizzontalmente */
     display: block;
     margin-right: auto;
     margin-left: auto;
   }
-
-}
-
-
-@media screen and (max-width: 420px){
 
   .row h1{
     font-size: 50px;
     margin-bottom: 50px;
   }
 
-}
-
-@media screen and (max-width: 420px){
-
   .row h3{
     font-size: 35px;
     margin-bottom: 10px;
   }
 
-}
-
-@media screen and (max-width: 420px) {
-
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 100%;
+    width: 95%;
+    margin: auto;
     display: block;
     padding-bottom: 50px;
   }
+  /* emd titol e lezioni dove vuoi */
 
-}
+  /* come funziona */
 
-/* emd titol e lezioni dove vuoi */
+  #steps::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
 
-/* come funziona */
 
-@media screen and (max-width: 420px){
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
-    width: 100%;
+    width: 95%;
+    margin: auto;
   }
 
-}
-
-@media screen and (max-width: 420px){
   #steps .left, #steps .central, #steps .right{
     display: block;
     clear: both;
     text-align: left;
+    padding-bottom: 30px;
   }
-}
 
-@media screen and (max-width: 420px){
   #steps .left::after{
     content: "";
     display: block;
     clear: both;
   }
-}
-@media screen and (max-width: 420px){
+
   #steps .central::after{
     content: "";
     display: block;
     clear: both;
   }
-}
-@media screen and (max-width: 420px){
+
   #steps .right::after{
     content: "";
     display: block;
     clear: both;
   }
-}
 
-@media screen and (max-width: 420px){
   #steps .left img, #steps .central img, #steps .right img{
     float: left;
     width: 15%;
     height: auto;
     padding-right: 60px;
   }
+
+  /* end come funziona */
+
+  /* perchè cademi */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+  }
+
+  #why .row>.third {
+    padding-bottom: 30px;
+  }
+
+  #why .row h3{
+    margin-top: 15px;
+  }
+
+  /* end perchè cademi */
 }
