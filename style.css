@@ -116,6 +116,7 @@ img {
     margin: auto;
     display: block;
     padding-bottom: 50px;
+    float: none;
   }
   /* emd titol e lezioni dove vuoi */
 
