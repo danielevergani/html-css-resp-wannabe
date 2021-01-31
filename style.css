@@ -75,7 +75,69 @@ img {
 
 /* responsive */
 
+@media screen and (max-width: 1024px){
 
+  *{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-size: 18px;
+  }
+  .row{
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  img{
+    height: 150px;
+  }
+
+   h3{
+    padding: 10px 0 10px 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 5px 0 5px;
+  }
+
+  #steps img{
+    height: 100px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #why .row{
+    padding-bottom: 20px;
+  }
+
+  hr{
+    margin-top: 10px;
+  }
+
+  #why img{
+    height: 120px;
+  }
+}
 
 @media screen and (max-width: 420px){
 
